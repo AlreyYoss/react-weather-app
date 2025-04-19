@@ -15,4 +15,4 @@ Simple React Weather App - OpenWeatherAPI
 
 
 
-![Preview of Weather App](./common/assets/Preview.png)
+![Preview of Weather App](./src/common/assets/Preview.png)
