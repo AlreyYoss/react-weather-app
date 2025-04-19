@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["src/*"]
+      },
+      "module": "esnext",
+      "jsx": "react",
+      "moduleResolution": "node",
+      "types": ["vite/client"],
+      "lib": ["dom", "es2020"]
+    },
+    "include": ["src"]
+       
+  }
