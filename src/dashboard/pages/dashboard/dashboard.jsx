@@ -73,7 +73,7 @@ export const Dashboard = () => {
             //   };
             setWeatherData(weatherInfo);
             dispatch(addSearchHistory(weatherInfo));
-
+            setError(null);
         }catch(err) {
             console.log("Failed to fetch weather data: ", err);
             setError(err?.data?.message);
